@@ -32,15 +32,15 @@
 	}
 
 	p {
-		font-size: 5 px;
+		font-size: 8 px;
 	}
 	.opportunity_1 {
 		font-size: 10px;
 	}
 	.navbar-menu li a {
 		font-size: 10px;
-		padding: 0px;
-		margin-right: 0px;
+		padding: 1px;
+		margin-right: 1px;
 	}
 	.navbar-brand a {
 		font-size: 10px;
@@ -52,9 +52,19 @@
 		font-size: 8px;
 	}
 	.opportunity .opportunity_Box .opportunity_1 a{
-		font-size: 10px; 
+		font-size: 15px; 
 	}
 	.Feedback .conteiner .conteiner_1 a{
+		font-size: 15px;
+	}
+	.offer {
+		width: 90%;
+	}
+	.offer_1 {
 		font-size: 10px;
+	}
+	.box {
+		width: 45%;
+		margin-left: 1%;
 	}
 }
