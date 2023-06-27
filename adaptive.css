@@ -28,11 +28,11 @@
 
 @media only screen and (max-width: 768px ) {
 	h3 {
-		font-size: 10px;
+		font-size: 8px;
 	}
 
 	p {
-		font-size: 5 px;
+		font-size: 3 px;
 	}
 	.opportunity_1 {
 		font-size: 10px;
@@ -46,7 +46,7 @@
 		font-size: 10px;
 	}
 	h1 {
-		font-size: 10px;
+		font-size: 8px;
 	}
 	h2{
 		font-size: 8px;
@@ -61,7 +61,7 @@
 		width: 90%;
 	}
 	.offer_1 {
-		font-size: 5px;
+		font-size: 3px;
 	}
 	.box {
 		width: 45%;
