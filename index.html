@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="adaptive.css">
+	<title>main page</title>
+	<style>
+        .regButton {
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            padding: 6px 24px;
+            cursor: pointer;
+        }
+
+        .regButton:hover {
+            background: #ccc;
+        }
+
+        #window {
+            width: 350px;
+            height: 530px;
+            margin: 40px auto;
+            background: #fff;
+            border: 1px solid #fff;
+            border-radius: 15px;
+            z-index: 150; display: none;
+             position: fixed; left: 0;right: 0;top:0;bottom: 0;
+        } 
+        .form{
+            width: 275px; margin: -15px auto 20px auto; text-align: center;} 
+        .input{
+                width: 260px;padding: 5px; margin-bottom: 10px; } 
+        .close{margin: 10px 0 0 320px;cursor: pointer;border: 1px solid #ccc; padding: 2px; background: #ccc;} .close:hover{
+                background: #fff;}
+        #gray{opacity: 0.8; padding: 15px;
+            background-color: rgba(1,1,1,0.4); position: fixed; left: 0;right: 0;top:0;bottom: 0; display: none; z-index:100; overflow: auto; } 
+        
+    </style>
+</head>
+<body>
+	<div class="qwe">
+		<div class="navbar">
+
+			<div class="conteiner">
+				<div  class="navbar-brand">
+					<img src="image/imag_5.png" class="leftimg_1">
+					<a href="#">Begin</a>
+				</div>
+				<div class="navbar-wrap">
+					<ul class="navbar-menu">
+						<li><a href="#">Компания</a></li>
+						<li><a href="#">Инструменты</a></li>
+						<li><a href="#">Тарифы</a></li>
+						<li><a href="#">Инвесторам</a></li>
+					</ul>
+				</div>
+				
+
+			</div>
+		</div>
+
+		<div class="Start">
+			<h1>Инструмент для поиска <br> ликвидных и перспективных стартапов</h1>
+			<h2>Проведем бесплатную демонстрацию возможностей Begin <button onclick="show('block')" class="record"><a href="#">Записаться</a></button></h2>		
+			<img src="image/img_4.jpg" class="image"> 
+		</div>
+</div>
+	<div class="opportunity">
+		<div class="opportunity_Box">
+			<h3><strong>Узнайте больше о возможностях сервиса</strong></h3>
+			<div class="opportunity_1">
+				<img src="image/img_1.jpg" class="leftimg">
+				<a href="#" style=" margin-left: 3%;color: black;"><strong>Аналитика </strong></a>
+				<br>
+				<p>Узнайте больше о всех стартапах, которые доступны сейчас</p>
+			</div>
+			<div class="opportunity_1" >
+				<img src="image/img_2.jpg" class="leftimg">
+				<a href="#" style="margin-left: 3%; color: black;"><strong>Поиск</strong></a>
+				<br>
+				<p>Найдите подходящий для вас проект для инвестирования</p>
+			</div>
+			<div class="opportunity_1" >
+				<img src="image/img_3.jpg" class="leftimg">
+				<a href="#" style="margin-left: 3%; color: black;"><strong>Прогрессивные стартапы</strong></a>
+				<p>Узнайте каке стартапы были самыми доходными за последние несколько лет</p>
+			</div>			
+		</div>
+	</div>
+
+	<div class="offer">
+		<div class="offer_1">
+			<div class="box">
+				<h3 style="text-align: center;"><strong>Free</strong></h3>
+				<p style="text-align:center;"><strong>Бесплатно</strong></p>
+				<button onclick="show('block')"style="position: relative;left: 50%; transform: translate(-55%, 0);"  class="record"><a href="#">попробовать бесплатно</a></button>
+				<p style="text-align: left;">
+					<br>
+					-узнать топ стартапов на данный момент
+					<br>
+					-Доступ к краткой анотации
+				</p>
+			</div>
+
+			<div class="box">
+				<h3 style="text-align: center;"><strong>Start</strong></h3>
+				<p style="text-align:center;"><strong>$49 в месяц</strong></p>
+				<button onclick="show('block')" style="position: relative;left: 50%; transform: translate(-50%, 0);"class="record" ><a href="#" >Подписаться</a></button>
+				<p style="text-align: left;">
+					<br>
+					- Отключить рекламу
+					<br>
+					- Расширенные возможности анализа стартапов и рыночных трендов.
+				</p>
+			</div>
+
+			<div class="box">
+				<h3 style=" text-align: center;"><strong>Pro</strong></h3>
+				<p style="text-align:center;"><strong>$99 в месяц</strong></p>
+				<button onclick="show('block')"  style="position: relative;left: 50%; transform: translate(-50%, 0);" class="record"><a href="#">Подписаться</a></button>
+				<p style="text-align: left;">
+					<br>
+					- Все преимущества тарифа "Стандарт"
+					<br>
+					- Составление подробного отчета
+					<br>
+					- Отключение рекламы
+					<br>
+					- Расширенные инструменты прогнозирования и анализа рынков
+				</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<div class="Feedback">
+		<div class="conteiner">
+			<div class="conteiner_1">
+				<img src="image/imag_5.png" class="leftimg_2">
+				<a href="#" style="color: black;" class="pand"><strong>Begin</strong></a>
+			</div>
+			<div class="conteiner_2">
+						<a href="#" style="color: black;">Политика конфиденциальности</a>
+						<br>
+						<a href="#" style=";color: black;">Лицензионное соглашение</a>
+						<br>
+						<a href="#" style="color: black;">Документация</a>
+						<br>
+			</div>
+			<div class="conteiner_3">
+				<div class="opportunity_3">
+					<a href="#"><img src="image/icons8.png" class="leftimg_3"></a>
+					<a href="#"><img src="image/icons9.png" class="leftimg_3"></a>
+				</div>
+				<div class="opportunity_3">
+					<p>team@Job_Top_gmail.com</p>
+					<p>+7 (499) 286-51-58</p>
+				</div>
+			</div>
+			
+		</div>		
+	</div>
+	<div onclick="show('none')" id="gray"></div>
+<div id="window">
+    <!-- Картинка крестика -->
+    <img class="close" src="image/close.png" alt=""  onclick="show('none')">
+    <div class="form">
+        <h2>Регистрация</h2>
+        <form action="index.html" name="f1">
+            <input type="text" placeholder="Имя" name="name1" class="input">
+            <input type="text" placeholder="Фамилия" name="name2" class="input">
+            <input type="email" placeholder="Емеил" name="email1" class="input">
+            <input type="email" placeholder="Подтвердите адрес Электронной Почты" name="email2" class="input">
+            <input type="password" placeholder="Пароль" name="pass1" class="input">
+            <input type="password" placeholder="Подтвердите пароль" name="pass2" class="input">
+            <input type='tel' placeholder="Мобильный телефон" name="tel" class="input">
+            <input type="radio" name="radio1"> Мужчина <input type="radio" name="radio1" class="radio"> Женщина
+            <input type="submit" value="Регистрация" name="sab" class="input"> Нажимая «Регистрация», вы подтверждаете, что прочитали и согласны с нашими Условиями Пользования и Политикой Конфиденциальности.
+        </form>
+    </div>
+</div>
+
+ <script>
+//Функция показа
+	function show(state)
+	{
+	document.getElementById('window').style.display = state;	
+	document.getElementById('gray').style.display = state; 		
+	}	
+</script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: cursive;
+}
+
+body{
+	margin: 0;
+	background: linear-gradient(-45deg, #322CF0,#2C82F0,#BEDDEE);
+	background-size: 600% 600%;
+	animation: gradient 20s ease infinite;
+}
+h3 {
+	font-size: 50px; 
+	margin-left: 30%;
+}
+
+p {
+	font-size: 30px;
+}
+
+.Feedback{
+	background: #42AAFF;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.9;
+}
+
+.navbar {
+	width: 65%;
+	height: 120px;
+	margin-left: auto;
+  margin-right: auto;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+	border-radius: 20px;
+}
+
+.navbar .conteiner {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-menu {
+	display: flex;
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+
+}
+
+.navbar-menu li {
+	display: inline-block;
+
+}
+
+.navbar-menu li a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.8;
+	padding: 20px;
+	font-size: 25px;
+	margin-right: 15px;
+	transition: all .07s ease-in-out;
+	
+}
+
+.navbar-menu li a:hover {
+	opacity: 1;
+}
+
+
+.navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+	
+}
+
+.navbar-brand a{
+	font-weight: 1000;
+	font-size: 45px;
+	text-decoration: none;
+	color: #fff;
+	transition: all .07s ease-in-out;
+}
+
+.navbar-brand a:hover {
+	color: coral;
+}
+
+.Start {
+	margin-top: 5%;
+	margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+h1 {
+	color: #fff;
+	font-size: 45px;
+	position: relative;
+	text-align: center;
+
+}	
+
+h2 {
+	color: #fff;
+	font-size: 20px;
+	position: relative;
+	text-align: center;
+	
+}	
+.record {
+	background: #E1747F;
+	transition: all .1s ease-in-out;
+	text-decoration: none;
+	color: #000;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+	border: none;
+	padding: 1rem 1.5rem;
+	margin-bottom: 1rem;
+	font-size: 20px;
+	margin-left: 10px;
+	text-decoration: none;
+	transition: all 1s ease-out;
+}
+
+.record a {
+	color: #000;
+
+
+}
+
+.record :hover {
+	opacity: 1;
+
+}
+
+.leftimg {
+	width: 42.2%;
+	float: left;
+	vertical-align: middle;
+	border-radius: 25px;
+	padding: 2%;
+
+
+}
+
+.leftimg_1 {
+	width: 40%;
+	float: left;
+	vertical-align: middle;
+	border-radius: 25px;
+	padding: 0.5%;
+
+
+}
+.leftimg_2 {
+	width: 20%;
+	float: left;
+	vertical-align: middle;
+	border-radius: 25px;
+
+
+}
+.leftimg_3 {
+	width: 10%;
+	vertical-align: middle;
+	border-radius: 10px;
+
+
+}
+
+.opportunity {
+ 	margin-top: 5%;
+	text-decoration: none;
+	color: black;
+	
+}
+
+.opportunity_Box{
+	background: 	#E0E0E0;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+	border-radius: 10px;
+}
+h3 {
+	transform: translate(-25%, 0%);
+	position: relative;
+	text-align: center;
+}
+.opportunity_1{
+	top: 50%;
+	left: 30%;
+	width: 50%;
+
+	transform: translate(45%, 0%);
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+	padding: 3%;
+	
+	
+}
+
+.offer {
+	width: 70%;
+	height: 700px;
+
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.offer .offer_1{
+	height: inherit;
+	display: flex;
+	padding: 5px;
+}
+
+.offer_1{
+	display: inline-block;
+
+	font-size: 25px;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+.box{
+	width: 30%;
+	background: #E0E0E0;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+	border-radius: 10px;
+	margin-left: 5%;
+}
+
+.image{
+	width: 88%;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+	transform: translate(10%, 0%);	
+	padding: 10px;
+}
+.Feedback{
+	width: 100%;
+	height: 290px;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.Feedback .conteiner {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.conteiner_2{
+  display: block;
+	transform: translate(10%, 0%);
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+	padding: 2%;
+	opacity: 0.7;
+	transition: all .7s ease-in-out;
+}
+.conteiner_2 :hover{
+	opacity: 2;
+	text-shadow: gray 1px 3px;
+}
+.conteiner_3{
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+	padding: 2%;
+}
+
+.opportunity_3{
+	display: block;
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	text-align: right;
+	
+}
+
+.opportunity .opportunity_Box .opportunity_1 a{
+	font-size: 40px;
+}
+.Feedback .conteiner .conteiner_1 a{
+	font-size: 50px;
+}
